@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Database</title>
+</head>
+<body>
+    <h1>User Database</h1>
+    {% for user in users %}
+        <h3>Username: {{ user.username }}</h3>
+        <h4>ID: {{ user.userid }}</h4>
+       
+    {% endfor %}
+</body>
+</html>
